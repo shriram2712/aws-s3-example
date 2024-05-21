@@ -3,7 +3,7 @@ variable "prefix" {
   default = "shriram"
 }
 
-variable "region {
+variable "region" {
   description = "region for aws provider"
   default = "us-east-1"
 }
