@@ -1,7 +1,7 @@
 module "s3_bucket" {
   source  = "app.terraform.io/shriramrajaraman/s3-bucket/aws"
 
-  prefix = var.prefix
+  bucket_prefix = var.prefix
   acl    = "private"
 
   control_object_ownership = true
